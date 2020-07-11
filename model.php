@@ -2,7 +2,7 @@
 	CLass Model{
 		private $server = "localhost";
 		private $username = "root";
-		private $password = "";
+		private $password = "Toledo@12345";
 		private $db = "CRUD_ko";
 		private $conn;
 
