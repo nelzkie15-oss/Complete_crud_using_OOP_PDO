@@ -1,9 +1,9 @@
 <?php
 	CLass Model{
-		private $server = "e11wl4mksauxgu1w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-		private $username = "cjrl9zifczwqni5q";
-		private $password = "mndciyiw14dd64go";
-		private $db = "qrti8cc0mg76x5zl";
+		private $server = "localhost";
+		private $username = "root";
+		private $password = "";
+		private $db = "CRUD_ko";
 		private $conn;
 
 
