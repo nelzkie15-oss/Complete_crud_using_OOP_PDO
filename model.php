@@ -3,14 +3,13 @@
 		private $server = "e11wl4mksauxgu1w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 		private $username = "cjrl9zifczwqni5q";
 		private $password = "mndciyiw14dd64go";
-		private $Port = "3306";
 		private $db = "qrti8cc0mg76x5zl";
 		private $conn;
 
 
 		public function __construct(){
 			try{ 
-				$this->conn = new PDO("mysql:host=$this->server;dbname=$this->db", $this->username, $this->Port, $this->password);
+				$this->conn = new PDO("mysql:host=$this->server;dbname=$this->db", $this->username, $this->password);
 
 			}catch(PDOException $e){
 				echo "connection failed". $e->getMessage();
