@@ -3,7 +3,7 @@
 		private $server = "localhost";
 		private $username = "root";
 		private $password = "";
-		private $db = "";
+		private $db = "CRUD_ko";
 		private $conn;
 
 
